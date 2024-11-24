@@ -1,5 +1,5 @@
 {
-    "name": "gigablah/silex-oauth",
+    "name": "gupalo/silex-oauth",
     "description": "Silex OAuth Authentication Provider",
     "keywords": ["silex", "oauth"],
     "homepage": "https://github.com/gigablah/silex-oauth",
@@ -12,16 +12,12 @@
         }
     ],
     "require": {
-        "lusitanian/oauth": ">=0.3.5"
+        "lusitanian/oauth": ">=0.3.5",
+        "silex/silex": "^2.0"
     },
     "autoload": {
         "psr-4": {
             "Gigablah\\Silex\\OAuth\\": ["src/"]
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
         }
     }
 }
